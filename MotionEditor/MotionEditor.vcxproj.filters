@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{a9ba3073-459b-43a0-b29a-2766465cb2f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fixed Classes">
+      <UniqueIdentifier>{a0392feb-c19c-48d4-8835-b55a9c4cdc31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\MotionEditor.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MotionEditor.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\BDelete.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\BPlay.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ButtonDOWN.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ButtonUp.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\image_iSobotA.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\image_iSobotB.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\BPause.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\port settings.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\Users\Aditya\Desktop\sdf.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\backgroundImage.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MotionEditorDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSV_Reader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Expression.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="listData.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="MIDI.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="WMPWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CWMPPlayer4.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Fixed Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Fixed Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Fixed Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveLoad.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionEditor.h">
+      <Filter>Fixed Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ComPortSetting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MotionEditorDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSV_Reader.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Expression.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="listData.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="MIDI.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPort.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="WMPWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CWMPPlayer4.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Fixed Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveLoad.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionEditor.cpp">
+      <Filter>Fixed Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ComPortSetting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MotionEditor.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
